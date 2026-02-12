@@ -1,4 +1,4 @@
-# This file was updated by Duplicator on 2026-02-05 12:48:53.
+# This file was updated by Duplicator on 2026-02-12 18:48:19.
 # See the original_files_ folder for the original source_site_htaccess file.
 # BEGIN WordPress
 # The directives (lines) between "BEGIN WordPress" and "END WordPress" are
@@ -7,11 +7,11 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /abdullah/
+RewriteBase /darazclub/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /abdullah/index.php [L]
+RewriteRule . /darazclub/index.php [L]
 </IfModule>
 
 # END WordPress
